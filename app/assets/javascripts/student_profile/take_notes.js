@@ -60,7 +60,7 @@
       onSave: React.PropTypes.func.isRequired,
       onCancel: React.PropTypes.func.isRequired,
       currentEducator: React.PropTypes.object.isRequired,
-      requestState: PropTypes.nullable(React.PropTypes.string.isRequired)
+      requestState: React.PropTypes.string.isRequired // or null
     },
 
     getInitialState: function() {
